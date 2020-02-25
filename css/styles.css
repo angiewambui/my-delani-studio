@@ -59,4 +59,8 @@
               }
               body{
                   font-size: larger;
+            }
+            #mouse-click {
+                animation: bounce 2s infinite;
               }
+              
