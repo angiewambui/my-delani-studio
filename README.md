@@ -1,5 +1,4 @@
 # Delani Studio
-#### Offers quality goods and services, 20.20.2020
 #### By **Angela Wambui**
 ## Description
 This is a website that enables customers to be provided quality goods and services from our studios at very affordable prices.
@@ -16,7 +15,7 @@ Language used is HTML, CSS, JAVASCRIPT AND JQUERY.Styling was gotten from Materi
 ## Support and contact details
 For any questions, use out Customer Care services at the social media platforms provided.
 ## live link
-
+https://angiewambui.github.io/my-delani-studio/.
 ### License
 MIT License
 
