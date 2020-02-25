@@ -4,22 +4,32 @@
 #contactus{
     text-align: center;
     background-image: url(../IP3-master/assets/backgrounds/h_img.jpg);
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 #about-us{
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: x-large;
 }
 #services{
     text-align: center;
     background-image: url(../IP3-master/assets/backgrounds/s_image.jpg);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: x-large;
+    color: white;
 }
 .landing{
     text-align: center;
     background-image: url(../IP3-master/assets/backgrounds/h_img.jpg);
     background-size: cover;
   background-repeat: no-repeat;
-  color:black;
+   color: white;
   text-align: center;
-
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 #portfolio{
     display: flex;
@@ -41,6 +51,7 @@
             font-family: 'Quattrocento', seri;
             text-align : center;
             padding-top : 40px;
+            float: inline-start;
         }
             @keyframes bounce {
                 0%, 20%, 50%, 80%, 100% {
@@ -55,12 +66,13 @@
               }
               #product, #development, #design{
                 display: none;
-                font-size: 26px;
               }
               body{
                   font-size: larger;
             }
             #mouse-click {
-                animation: bounce 2s infinite;
+                animation: bounce 4s infinite;
               }
-              
+              .col-md-4{
+                  text-align: center;
+              }
