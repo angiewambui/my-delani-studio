@@ -19,7 +19,7 @@
   background-repeat: no-repeat;
   color:black;
   text-align: center;
-  padding-top:17%; 
+
 }
 #portfolio{
     display: flex;
@@ -38,9 +38,10 @@
           font-size: 26px;
         }
         .what-we-do{
-            font-family: 'Quattrocento', serif;
-            text-align: center;
-            padding-top: 40px;}
+            font-family: 'Quattrocento', seri;
+            text-align : center;
+            padding-top : 40px;
+        }
             @keyframes bounce {
                 0%, 20%, 50%, 80%, 100% {
                   transform: translateY(0);
@@ -55,4 +56,7 @@
               #product, #development, #design{
                 display: none;
                 font-size: 26px;
-    
+              }
+              body{
+                  font-size: larger;
+              }
