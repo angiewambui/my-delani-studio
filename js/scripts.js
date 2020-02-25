@@ -30,18 +30,13 @@ $(document).ready(function(){
       $("#product-image").slideDown('1500');
     });
 });
-$(document).ready(function(){
-    $("detailsform").submit(function(event){
-      // event.preventDefault();
-      var name = $("input#firstname").val();
-      var email = $("input#email").val();
-      var message = $("textarea#comment").val();
-      if ($("input#firstname").val() && $("input#email").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
-      }
-      else {
-        alert("Please enter your name and email!");
-      }
-    });
-  }); 
-  
+$("#submit").click(function(){
+  var name = $("#contactName").val();
+  var email = $("#contactEmail").val();
+  var info = $("#textArea").val();
+  $(".contactName").text(name);
+  $(".contactEmail").text(email);
+  $(".textArea").text(info);
+  alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
+  });
+});  
